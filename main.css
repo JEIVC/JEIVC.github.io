@@ -17,9 +17,7 @@ body {
 h1 {
     background-image: linear-gradient(to bottom right,
         rgb(78, 204, 255), 
-        rgb(78, 204, 255), 
         rgb(118, 30, 255),
-        rgb(235, 255, 79),
         rgb(235, 255, 79),
         rgb(235, 255, 79)
     );
