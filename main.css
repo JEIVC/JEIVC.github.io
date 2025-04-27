@@ -1,0 +1,152 @@
+html {
+    background-color: black;
+    background-image: url("https://file.garden/Zm1CdvzejzDv1eQL/SITE/greyscalehailey.png");
+    background-size: 10%;
+    animation: ULTRAloop 5s linear infinite;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgba(78, 204, 255, 0.25);
+    color: white;
+    border: 2px solid white;
+    margin: 50px;
+    padding: 10px;
+}
+
+h1 {
+    background-image: linear-gradient(to bottom right,
+        rgb(78, 204, 255), 
+        rgb(78, 204, 255), 
+        rgb(118, 30, 255),
+        rgb(235, 255, 79),
+        rgb(235, 255, 79),
+        rgb(235, 255, 79)
+    );
+    color: transparent;
+    background-clip: text;
+}
+
+h1, h2 {
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+h2 {
+    margin-top: 12px;
+}
+
+sub {
+    color: rgb(200, 200, 200);
+}
+
+a {
+    color: rgb(235, 255, 79);
+}
+
+p {
+    margin: 8px 0;
+}
+
+nav.bordered {
+    background-color: rgba(118, 30, 255, 0.25);
+    margin-top: 10px;
+    padding: 1px;
+    font-size: 10px;
+    text-align: center;
+    &>a {
+        margin: 0 8px;
+        font-weight: bold;
+    }
+}
+
+.bordered {
+    border: 2px solid white;
+    margin: -12px;
+    padding: 2px;
+}
+
+.scroll {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.scroll .scrolltext {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    white-space: nowrap;
+    text-align: center;
+    animation: loop 5s linear infinite;
+}
+
+img {
+    width: 100%;
+}
+
+.iconcontainer {
+    display: block;
+}
+
+nav.bordered>a, .iconcontainer {
+    text-decoration: none;
+}
+a:hover, .curpage {
+    color: rgb(195, 215, 39);
+}
+
+.icon {
+    padding: 2px;
+    margin-bottom: 4px;
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    background-color: white;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.spinny {
+    display: inline-block;
+    background-image: url("https://file.garden/Zm1CdvzejzDv1eQL/SITE/spinnysymbolicon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.25em;
+}
+
+#hailey {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    float: right;
+    width: 20%;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#yap {
+    width: calc(80% - 32px);
+}
+
+#randomtext {
+    font-size: 12px;
+    text-align: center;
+}
+
+@keyframes ULTRAloop {
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 0;}
+}
+
+@keyframes loop {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-25%);}
+}
