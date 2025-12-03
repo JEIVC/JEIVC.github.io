@@ -1,0 +1,31 @@
+html {
+    background: black;
+}
+
+body {
+    padding: 15px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background: rgb(240, 240, 240);
+}
+
+#board {
+    margin: 10px auto;
+    padding: 4px;
+    background-color: gray;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.tile {
+    aspect-ratio: 1;
+    font-size: auto;
+    font-weight: bolder;
+}
+
+#musDisplay {
+    font-size: 12px;
+    font-style: italic;
+}
